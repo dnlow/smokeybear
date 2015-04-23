@@ -148,9 +148,7 @@ function getstatus_arroyogrande() { //44915
     		console.log("The Adjective Fire Danger Rating for Arroyo Grande has not yet been updated today.");
     		$('#agstatus').html("*This station's rating is not up to date");
     	}
-	});
-	$('#agstatus').last
-	
+	});	
 }
 
 function getICIndex(ic) {
