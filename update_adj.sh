@@ -1,12 +1,18 @@
+# First, update any changes that were made to the code
+git pull
+
+# Run the script that updates the .xml for each station
 echo getting new data...
 python triplescraper.py
 mv -f *.xml xml
 
+# Update the "Last Updated" timestamps for each station
 echo logging timestamps...
-git log -1 --format=%cd -- xml/lapanza.xml > timestamps
-git log -1 --format=%cd -- xml/lastablas.xml >> timestamps
-git log -1 --format=%cd -- xml/arroyogrande.xml >> timestamps
+git log -1 --format=%cd -- xml/lapanza.xml > xml/timestamps
+git log -1 --format=%cd -- xml/lastablas.xml >> xml/timestamps
+git log -1 --format=%cd -- xml/arroyogrande.xml >> xml/timestamps
 
+# Commit any changes that occurred
 echo committing...
 git add -A
 git commit -m "Update adjective fire danger rating"

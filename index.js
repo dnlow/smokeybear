@@ -2,6 +2,13 @@ function init() {
 	getstatus_lapanza();
 	getstatus_lastablas();
 	getstatus_arroyogrande();
+	/* Update the timestamps for each station */
+	$.get('xml/timestamps', function(data) {
+		var stamps = data.split('\n');
+		$('#lpstatus').html("Last updated: " + stamps[0]);
+		$('#ltstatus').html("Last updated: " + stamps[1]);
+		$('#agstatus').html("Last updated: " + stamps[2]);
+	});
 }
 
 function low(stationId) {
@@ -23,25 +30,6 @@ function veryhigh(stationId) {
 function extreme(stationId) {
 	$('#smokey' + stationId).attr('src', './img/extreme.png');
 }
-
-/*function getstatus() {
-	// USE msgc=7G3A2, nfdr_type O
-	jQuery.get('data.xml', function(data) {
-    	var jsonified = xmlToJson(data);
-    	//console.log(jsonified);
-    	for (var i=0; i<jsonified.nfdrs.row.length; i++) {
-    		var curEntry = jsonified.nfdrs.row[i];
-    		if (curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G3A2") {
-    			calc_rating(curEntry.sl['#text'], curEntry.ic['#text']);
-    			console.log("Smokey's Adjective Fire Danger Rating is up to date.");
-    			break;
-    		}
-    	}
-    	if (i == jsonified.nfdrs.row.length) {
-    		console.log("The Adjective Fire Danger Rating has not yet been updated today.");
-    	}
-	});
-}*/
 
 // Changes XML to JSON
 function xmlToJson(xml) {
@@ -97,12 +85,12 @@ function getstatus_lapanza() { //44905
 	    	}
 	    	if (i == jsonified.nfdrs.row.length) {
     			console.log("The Adjective Fire Danger Rating for La Panza has not yet been updated today.");
-    			$('#ltstatus').html("*This station's rating is not up to date");
+    			$('#lpstatus').html("*This station's rating is not up to date");
     		}
     	}    	
     	else {
     		console.log("The Adjective Fire Danger Rating for La Panza has not yet been updated today.");
-    		$('#ltstatus').html("*This station's rating is not up to date");
+    		$('#lpstatus').html("*This station's rating is not up to date");
     	}
 	});
 }
@@ -154,10 +142,11 @@ function getstatus_arroyogrande() { //44915
     	}
     	else {
     		console.log("The Adjective Fire Danger Rating for Arroyo Grande has not yet been updated today.");
-    		$('#ltstatus').html("*This station's rating is not up to date");
+    		$('#agstatus').html("*This station's rating is not up to date");
     	}
-    	
 	});
+	$('#agstatus').last
+	
 }
 
 function getICIndex(ic) {

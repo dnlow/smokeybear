@@ -3,7 +3,7 @@ body {
 }
 
 img {
-        display: inline-block;
+    display: inline-block;
 	text-align:center;
 }
 
@@ -13,14 +13,14 @@ img {
 
 #threestations {
 	width: 100%;
-        display: inline-block;
+    display: inline-block;
 }
 
 .onethird {
+	width: 450px;
 	text-align: center;
 	display: inline-block;
 }
 
 .specialnotes {
-	color: #ff0000;
 }
