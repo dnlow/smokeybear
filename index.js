@@ -68,9 +68,9 @@ function getTimestamps() {
 	/* Update the timestamps for each station */
 	$.get('xml/timestamps', function(data) {
 		var stamps = data.split('\n');
-		$('#lpstatus').html("Last updated: " + stamps[0]);
-		$('#ltstatus').html("Last updated: " + stamps[1]);
-		$('#agstatus').html("Last updated: " + stamps[2]);
+		$('#lpstatus').html("Last updated " + stamps[0]);
+		$('#ltstatus').html("Last updated " + stamps[1]);
+		$('#agstatus').html("Last updated " + stamps[2]);
 	});
 }
 

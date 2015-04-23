@@ -8,9 +8,9 @@ mv -f *.xml xml
 
 # Update the "Last Updated" timestamps for each station
 echo logging timestamps...
-git log -1 --format=%cd -- xml/lapanza.xml > xml/timestamps
-git log -1 --format=%cd -- xml/lastablas.xml >> xml/timestamps
-git log -1 --format=%cd -- xml/arroyogrande.xml >> xml/timestamps
+git log -1 --format=%cr -- xml/lapanza.xml > xml/timestamps
+git log -1 --format=%cr -- xml/lastablas.xml >> xml/timestamps
+git log -1 --format=%cr -- xml/arroyogrande.xml >> xml/timestamps
 
 # Commit any changes that occurred
 echo committing...
