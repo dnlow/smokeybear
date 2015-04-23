@@ -2,13 +2,7 @@ function init() {
 	getstatus_lapanza();
 	getstatus_lastablas();
 	getstatus_arroyogrande();
-	/* Update the timestamps for each station */
-	$.get('xml/timestamps', function(data) {
-		var stamps = data.split('\n');
-		$('#lpstatus').html("Last updated: " + stamps[0]);
-		$('#ltstatus').html("Last updated: " + stamps[1]);
-		$('#agstatus').html("Last updated: " + stamps[2]);
-	});
+	getTimestamps();
 }
 
 function low(stationId) {
@@ -69,6 +63,16 @@ function xmlToJson(xml) {
 	}
 	return obj;
 };
+
+function getTimestamps() {
+	/* Update the timestamps for each station */
+	$.get('xml/timestamps', function(data) {
+		var stamps = data.split('\n');
+		$('#lpstatus').html("Last updated: " + stamps[0]);
+		$('#ltstatus').html("Last updated: " + stamps[1]);
+		$('#agstatus').html("Last updated: " + stamps[2]);
+	});
+}
 
 function getstatus_lapanza() { //44905
 	jQuery.get('./xml/lapanza.xml', function(data) {
