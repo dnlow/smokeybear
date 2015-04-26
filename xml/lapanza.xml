@@ -116,26 +116,26 @@
 <sta_nm>LA PANZA</sta_nm>
 <nfdr_dt>042615</nfdr_dt>
 <nfdr_tm>12</nfdr_tm>
-<nfdr_type>R</nfdr_type>
+<nfdr_type>O</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
-<one_hr>5</one_hr>
-<ten_hr>7</ten_hr>
+<one_hr>4</one_hr>
+<ten_hr>6</ten_hr>
 <hu_hr>12</hu_hr>
 <th_hr>11</th_hr>
 <xh_hr>10</xh_hr>
-<ic>41</ic>
+<ic>52</ic>
 <kbdi>582</kbdi>
-<sc>18</sc>
-<ec>55</ec>
-<bi>72</bi>
+<sc>19</sc>
+<ec>56</ec>
+<bi>75</bi>
 <sl>5 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>51</fl>
-<hrb>5</hrb>
+<fl>53</fl>
+<hrb>4</hrb>
 <wdy>88</wdy>
 <adj>V </adj>
 </row>
