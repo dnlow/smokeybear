@@ -66,11 +66,28 @@ function xmlToJson(xml) {
 
 function getTimestamps() {
 	/* Update the timestamps for each station */
+
+	/* Git */ // USE THIS FOR PARSING!!!!!
+	// Wed Apr 29 18:00:09 2015 +0000
+	//    0   1   2     3      4     5
+
+	/* Javascript */
+	// Wed Apr 29 2015 13:49:59 GMT-0700 (PDT)
+
+	//Create a date string to match. Then math it out
+
 	$.get('xml/timestamps', function(data) {
 		var stamps = data.split('\n');
-		$('#lpstatus').html("Last updated " + stamps[0]);
-		$('#ltstatus').html("Last updated " + stamps[1]);
-		$('#agstatus').html("Last updated " + stamps[2]);
+		var stations = ['#lpstatus', '#ltstatus', '#agstatus'];
+		// stamps[0]: La Panza
+		// stamps[1]: Las Tablas
+		// stamps[2]: Arroyo Grande
+		var now = Math.floor((new Date).getTime()/1000);
+		for(var i=0; i<stations.length; i++) {
+			/* Timestamps are in seconds, so get time in hours */
+			var hours = (now - stamps[i])/360;
+			$(stations[i]).html("Last updated " + hours + " hours ago");
+		}
 	});
 }
 
