@@ -71,13 +71,27 @@ function getTimestamps() {
 		// stamps[0]: La Panza
 		// stamps[1]: Las Tablas
 		// stamps[2]: Arroyo Grande
+
+		/* Current time, in seconds */
 		var now = Math.floor((new Date).getTime()/1000);
 		console.log(now);
+
 		for(var i=0; i<stations.length; i++) {
 			/* Timestamps are in seconds, so get time in hours */
-			console.log(stamps[i]);
-			var hours = Math.floor((now - stamps[i])/3600);
-			$(stations[i]).html("Last updated " + hours + " hours ago");
+			var units = "";
+			var hours = ((now - stamps[i])/3600);
+
+			console.log(hours);
+			if (hours < 1) {
+				hours *= 60;
+				console.log(hours);
+				units = " minutes ";
+			}
+			else {
+				units = " hours ";
+			}
+			hours = Math.floor(hours);
+			$(stations[i]).html("Last updated " + hours + units + "ago");
 		}
 	});
 }
