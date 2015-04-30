@@ -87,7 +87,7 @@ function getTimestamps() {
 				units = " minute";
 			}
 			else {
-				units = " hours";
+				units = " hour";
 			}
 			if (hours > 1) { //plurality
 				units += "s";
