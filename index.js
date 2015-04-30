@@ -87,6 +87,9 @@ function getTimestamps() {
 				console.log(hours);
 				units = " minutes ";
 			}
+			else if (hours == 1) {
+				units = " hour ";
+			}
 			else {
 				units = " hours ";
 			}
