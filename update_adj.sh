@@ -1,5 +1,5 @@
 # First, update any changes that were made to the code
-git pull
+git pull origin gh-pages
 
 # Run the script that updates the .xml for each station
 echo getting new data...
