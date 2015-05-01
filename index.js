@@ -84,14 +84,16 @@ function getTimestamps() {
 			console.log(hours);
 			if (hours < 1) {
 				hours *= 60;
-				console.log(hours);
-				units = " minutes ";
+				units = " minute";
 			}
 			else {
-				units = " hours ";
+				units = " hour";
+			}
+			if (hours > 1) { //plurality
+				units += "s";
 			}
 			hours = Math.floor(hours);
-			$(stations[i]).html("Last updated " + hours + units + "ago");
+			$(stations[i]).html("Last updated " + hours + units + " ago");
 		}
 	});
 }
