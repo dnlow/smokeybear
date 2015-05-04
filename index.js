@@ -89,10 +89,11 @@ function getTimestamps() {
 			else {
 				units = " hour";
 			}
+			hours = Math.floor(hours);
 			if (hours > 1) { //plurality
 				units += "s";
 			}
-			hours = Math.floor(hours);
+			
 			$(stations[i]).html("Last updated " + hours + units + " ago");
 		}
 	});
