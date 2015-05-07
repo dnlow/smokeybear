@@ -9,8 +9,16 @@ img {
 	text-align:center;
 }
 
-.a {
+a {
 	text-decoration: none;
+}
+
+
+
+#navigation {
+	text-align: center;
+	clear: both;
+	width: 100%;
 }
 
 .smokey {
@@ -334,6 +342,7 @@ fieldset[disabled] .btn-info.active {
   color: #428bca;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 }
 
 .btn-link,
@@ -687,7 +696,7 @@ fieldset[disabled] .btn-link:focus {
 
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    /*float: left;*/
     margin: 0;
   }
   .navbar-nav > li {
