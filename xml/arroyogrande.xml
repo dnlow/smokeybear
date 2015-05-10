@@ -116,26 +116,26 @@
 <sta_nm>ARROYO GRANDE</sta_nm>
 <nfdr_dt>051015</nfdr_dt>
 <nfdr_tm>12</nfdr_tm>
-<nfdr_type>R</nfdr_type>
+<nfdr_type>O</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
-<one_hr>6</one_hr>
-<ten_hr>8</ten_hr>
+<one_hr>5</one_hr>
+<ten_hr>7</ten_hr>
 <hu_hr>14</hu_hr>
 <th_hr>13</th_hr>
 <xh_hr>9</xh_hr>
-<ic>28</ic>
+<ic>37</ic>
 <kbdi>484</kbdi>
 <sc>11</sc>
-<ec>46</ec>
-<bi>52</bi>
+<ec>48</ec>
+<bi>54</bi>
 <sl>4 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>37</fl>
-<hrb>6</hrb>
+<fl>38</fl>
+<hrb>5</hrb>
 <wdy>100</wdy>
 <adj>H </adj>
 </row>
