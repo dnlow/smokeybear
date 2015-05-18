@@ -2,6 +2,90 @@
 <row num="1">
 <sta_id>44915</sta_id>
 <sta_nm>ARROYO GRANDE</sta_nm>
+<nfdr_dt>051815</nfdr_dt>
+<nfdr_tm>6</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G2A2</msgc>
+<one_hr>21</one_hr>
+<ten_hr>21</ten_hr>
+<hu_hr>16</hu_hr>
+<th_hr>15</th_hr>
+<xh_hr>10</xh_hr>
+<ic>0</ic>
+<kbdi>489</kbdi>
+<sc>2</sc>
+<ec>26</ec>
+<bi>17</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>12</fl>
+<hrb>21</hrb>
+<wdy>115</wdy>
+<adj>L </adj>
+</row>
+<row num="2">
+<sta_id>44915</sta_id>
+<sta_nm>ARROYO GRANDE</sta_nm>
+<nfdr_dt>051815</nfdr_dt>
+<nfdr_tm>0</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G2A2</msgc>
+<one_hr>23</one_hr>
+<ten_hr>17</ten_hr>
+<hu_hr>16</hu_hr>
+<th_hr>15</th_hr>
+<xh_hr>10</xh_hr>
+<ic>0</ic>
+<kbdi>489</kbdi>
+<sc>1</sc>
+<ec>26</ec>
+<bi>14</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>10</fl>
+<hrb>23</hrb>
+<wdy>115</wdy>
+<adj>L </adj>
+</row>
+<row num="3">
+<sta_id>44915</sta_id>
+<sta_nm>ARROYO GRANDE</sta_nm>
+<nfdr_dt>051815</nfdr_dt>
+<nfdr_tm>8</nfdr_tm>
+<nfdr_type>S</nfdr_type>
+<mp>1</mp>
+<msgc>7G2A2</msgc>
+<one_hr>9</one_hr>
+<ten_hr>10</ten_hr>
+<hu_hr>16</hu_hr>
+<th_hr>15</th_hr>
+<xh_hr>10</xh_hr>
+<ic>10</ic>
+<kbdi>478</kbdi>
+<sc>5</sc>
+<ec>37</ec>
+<bi>32</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>23</fl>
+<hrb>9</hrb>
+<wdy>115</wdy>
+<adj>L </adj>
+</row>
+<row num="4">
+<sta_id>44915</sta_id>
+<sta_nm>ARROYO GRANDE</sta_nm>
 <nfdr_dt>051715</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>F</nfdr_type>
@@ -27,144 +111,144 @@
 <wdy>113</wdy>
 <adj>M </adj>
 </row>
-<row num="2">
-<sta_id>44915</sta_id>
-<sta_nm>ARROYO GRANDE</sta_nm>
-<nfdr_dt>051615</nfdr_dt>
-<nfdr_tm>0</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G2A2</msgc>
-<one_hr>27</one_hr>
-<ten_hr>19</ten_hr>
-<hu_hr>18</hu_hr>
-<th_hr>15</th_hr>
-<xh_hr>10</xh_hr>
-<ic>0</ic>
-<kbdi>487</kbdi>
-<sc>0</sc>
-<ec>22</ec>
-<bi>0</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>0</fl>
-<hrb>27</hrb>
-<wdy>114</wdy>
-<adj>L </adj>
-</row>
-<row num="3">
-<sta_id>44915</sta_id>
-<sta_nm>ARROYO GRANDE</sta_nm>
-<nfdr_dt>051615</nfdr_dt>
-<nfdr_tm>6</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G2A2</msgc>
-<one_hr>27</one_hr>
-<ten_hr>23</ten_hr>
-<hu_hr>18</hu_hr>
-<th_hr>15</th_hr>
-<xh_hr>10</xh_hr>
-<ic>0</ic>
-<kbdi>487</kbdi>
-<sc>0</sc>
-<ec>22</ec>
-<bi>0</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>0</fl>
-<hrb>27</hrb>
-<wdy>114</wdy>
-<adj>L </adj>
-</row>
-<row num="4">
-<sta_id>44915</sta_id>
-<sta_nm>ARROYO GRANDE</sta_nm>
-<nfdr_dt>051615</nfdr_dt>
-<nfdr_tm>12</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G2A2</msgc>
-<one_hr>10</one_hr>
-<ten_hr>14</ten_hr>
-<hu_hr>17</hu_hr>
-<th_hr>15</th_hr>
-<xh_hr>10</xh_hr>
-<ic>6</ic>
-<kbdi>488</kbdi>
-<sc>7</sc>
-<ec>34</ec>
-<bi>36</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>26</fl>
-<hrb>10</hrb>
-<wdy>114</wdy>
-<adj>L </adj>
-</row>
 <row num="5">
 <sta_id>44915</sta_id>
 <sta_nm>ARROYO GRANDE</sta_nm>
-<nfdr_dt>051615</nfdr_dt>
+<nfdr_dt>051715</nfdr_dt>
 <nfdr_tm>12</nfdr_tm>
-<nfdr_type>O</nfdr_type>
+<nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
-<one_hr>7</one_hr>
-<ten_hr>9</ten_hr>
-<hu_hr>17</hu_hr>
+<one_hr>11</one_hr>
+<ten_hr>14</ten_hr>
+<hu_hr>16</hu_hr>
 <th_hr>15</th_hr>
 <xh_hr>10</xh_hr>
-<ic>22</ic>
-<kbdi>476</kbdi>
+<ic>5</ic>
+<kbdi>489</kbdi>
 <sc>8</sc>
-<ec>38</ec>
-<bi>41</bi>
+<ec>34</ec>
+<bi>40</bi>
 <sl>4 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>29</fl>
-<hrb>7</hrb>
-<wdy>114</wdy>
-<adj>H </adj>
+<fl>28</fl>
+<hrb>11</hrb>
+<wdy>115</wdy>
+<adj>M </adj>
 </row>
 <row num="6">
 <sta_id>44915</sta_id>
 <sta_nm>ARROYO GRANDE</sta_nm>
-<nfdr_dt>051615</nfdr_dt>
-<nfdr_tm>8</nfdr_tm>
-<nfdr_type>S</nfdr_type>
+<nfdr_dt>051715</nfdr_dt>
+<nfdr_tm>18</nfdr_tm>
+<nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
-<one_hr>8</one_hr>
-<ten_hr>10</ten_hr>
-<hu_hr>17</hu_hr>
+<one_hr>15</one_hr>
+<ten_hr>12</ten_hr>
+<hu_hr>16</hu_hr>
 <th_hr>15</th_hr>
 <xh_hr>10</xh_hr>
-<ic>15</ic>
-<kbdi>476</kbdi>
-<sc>6</sc>
-<ec>37</ec>
-<bi>35</bi>
+<ic>0</ic>
+<kbdi>489</kbdi>
+<sc>3</sc>
+<ec>32</ec>
+<bi>24</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>25</fl>
-<hrb>8</hrb>
+<fl>17</fl>
+<hrb>15</hrb>
+<wdy>115</wdy>
+<adj>L </adj>
+</row>
+<row num="7">
+<sta_id>44915</sta_id>
+<sta_nm>ARROYO GRANDE</sta_nm>
+<nfdr_dt>051715</nfdr_dt>
+<nfdr_tm>6</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G2A2</msgc>
+<one_hr>21</one_hr>
+<ten_hr>20</ten_hr>
+<hu_hr>17</hu_hr>
+<th_hr>15</th_hr>
+<xh_hr>10</xh_hr>
+<ic>0</ic>
+<kbdi>488</kbdi>
+<sc>2</sc>
+<ec>26</ec>
+<bi>18</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>13</fl>
+<hrb>21</hrb>
 <wdy>114</wdy>
 <adj>L </adj>
+</row>
+<row num="8">
+<sta_id>44915</sta_id>
+<sta_nm>ARROYO GRANDE</sta_nm>
+<nfdr_dt>051715</nfdr_dt>
+<nfdr_tm>0</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G2A2</msgc>
+<one_hr>25</one_hr>
+<ten_hr>17</ten_hr>
+<hu_hr>17</hu_hr>
+<th_hr>15</th_hr>
+<xh_hr>10</xh_hr>
+<ic>0</ic>
+<kbdi>488</kbdi>
+<sc>0</sc>
+<ec>25</ec>
+<bi>5</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>4</fl>
+<hrb>25</hrb>
+<wdy>114</wdy>
+<adj>L </adj>
+</row>
+<row num="9">
+<sta_id>44915</sta_id>
+<sta_nm>ARROYO GRANDE</sta_nm>
+<nfdr_dt>051715</nfdr_dt>
+<nfdr_tm>12</nfdr_tm>
+<nfdr_type>O</nfdr_type>
+<mp>1</mp>
+<msgc>7G2A2</msgc>
+<one_hr>6</one_hr>
+<ten_hr>8</ten_hr>
+<hu_hr>16</hu_hr>
+<th_hr>15</th_hr>
+<xh_hr>10</xh_hr>
+<ic>26</ic>
+<kbdi>477</kbdi>
+<sc>10</sc>
+<ec>39</ec>
+<bi>47</bi>
+<sl>4 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>33</fl>
+<hrb>6</hrb>
+<wdy>115</wdy>
+<adj>H </adj>
 </row>
 </nfdrs>
