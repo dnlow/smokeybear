@@ -2,32 +2,116 @@
 <row num="1">
 <sta_id>44914</sta_id>
 <sta_nm>LA PANZA</sta_nm>
-<nfdr_dt>062115</nfdr_dt>
-<nfdr_tm>6</nfdr_tm>
-<nfdr_type>N</nfdr_type>
+<nfdr_dt>062215</nfdr_dt>
+<nfdr_tm>13</nfdr_tm>
+<nfdr_type>F</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
-<one_hr>6</one_hr>
-<ten_hr>5</ten_hr>
-<hu_hr>4</hu_hr>
+<one_hr>2</one_hr>
+<ten_hr>2</ten_hr>
+<hu_hr>5</hu_hr>
 <th_hr>8</th_hr>
 <xh_hr>6</xh_hr>
-<ic>15</ic>
-<kbdi>654</kbdi>
-<sc>8</sc>
-<ec>78</ec>
-<bi>58</bi>
+<ic>57</ic>
+<kbdi>656</kbdi>
+<sc>10</sc>
+<ec>83</ec>
+<bi>66</bi>
 <sl>4 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>41</fl>
-<hrb>6</hrb>
+<fl>47</fl>
+<hrb>2</hrb>
+<wdy>60</wdy>
+<adj>V </adj>
+</row>
+<row num="2">
+<sta_id>44914</sta_id>
+<sta_nm>LA PANZA</sta_nm>
+<nfdr_dt>062215</nfdr_dt>
+<nfdr_tm>0</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>7</one_hr>
+<ten_hr>4</ten_hr>
+<hu_hr>4</hu_hr>
+<th_hr>8</th_hr>
+<xh_hr>6</xh_hr>
+<ic>13</ic>
+<kbdi>656</kbdi>
+<sc>7</sc>
+<ec>79</ec>
+<bi>55</bi>
+<sl>4 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>39</fl>
+<hrb>7</hrb>
 <wdy>60</wdy>
 <adj>M </adj>
 </row>
-<row num="2">
+<row num="3">
+<sta_id>44914</sta_id>
+<sta_nm>LA PANZA</sta_nm>
+<nfdr_dt>062215</nfdr_dt>
+<nfdr_tm>6</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>8</one_hr>
+<ten_hr>5</ten_hr>
+<hu_hr>4</hu_hr>
+<th_hr>8</th_hr>
+<xh_hr>6</xh_hr>
+<ic>9</ic>
+<kbdi>656</kbdi>
+<sc>7</sc>
+<ec>77</ec>
+<bi>55</bi>
+<sl>4 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>39</fl>
+<hrb>8</hrb>
+<wdy>60</wdy>
+<adj>M </adj>
+</row>
+<row num="4">
+<sta_id>44914</sta_id>
+<sta_nm>LA PANZA</sta_nm>
+<nfdr_dt>062215</nfdr_dt>
+<nfdr_tm>8</nfdr_tm>
+<nfdr_type>S</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>3</one_hr>
+<ten_hr>3</ten_hr>
+<hu_hr>4</hu_hr>
+<th_hr>8</th_hr>
+<xh_hr>5</xh_hr>
+<ic>54</ic>
+<kbdi>658</kbdi>
+<sc>12</sc>
+<ec>86</ec>
+<bi>72</bi>
+<sl>5 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>51</fl>
+<hrb>3</hrb>
+<wdy>60</wdy>
+<adj>V </adj>
+</row>
+<row num="5">
 <sta_id>44914</sta_id>
 <sta_nm>LA PANZA</sta_nm>
 <nfdr_dt>062115</nfdr_dt>
@@ -55,7 +139,119 @@
 <wdy>60</wdy>
 <adj>M </adj>
 </row>
-<row num="3">
+<row num="6">
+<sta_id>44914</sta_id>
+<sta_nm>LA PANZA</sta_nm>
+<nfdr_dt>062115</nfdr_dt>
+<nfdr_tm>6</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>6</one_hr>
+<ten_hr>5</ten_hr>
+<hu_hr>4</hu_hr>
+<th_hr>8</th_hr>
+<xh_hr>6</xh_hr>
+<ic>15</ic>
+<kbdi>654</kbdi>
+<sc>8</sc>
+<ec>78</ec>
+<bi>58</bi>
+<sl>4 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>41</fl>
+<hrb>6</hrb>
+<wdy>60</wdy>
+<adj>M </adj>
+</row>
+<row num="7">
+<sta_id>44914</sta_id>
+<sta_nm>LA PANZA</sta_nm>
+<nfdr_dt>062115</nfdr_dt>
+<nfdr_tm>12</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>3</one_hr>
+<ten_hr>3</ten_hr>
+<hu_hr>4</hu_hr>
+<th_hr>8</th_hr>
+<xh_hr>6</xh_hr>
+<ic>43</ic>
+<kbdi>656</kbdi>
+<sc>18</sc>
+<ec>84</ec>
+<bi>88</bi>
+<sl>5 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>62</fl>
+<hrb>3</hrb>
+<wdy>60</wdy>
+<adj>V </adj>
+</row>
+<row num="8">
+<sta_id>44914</sta_id>
+<sta_nm>LA PANZA</sta_nm>
+<nfdr_dt>062115</nfdr_dt>
+<nfdr_tm>18</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>3</one_hr>
+<ten_hr>3</ten_hr>
+<hu_hr>4</hu_hr>
+<th_hr>8</th_hr>
+<xh_hr>6</xh_hr>
+<ic>40</ic>
+<kbdi>656</kbdi>
+<sc>15</sc>
+<ec>84</ec>
+<bi>81</bi>
+<sl>5 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>57</fl>
+<hrb>3</hrb>
+<wdy>60</wdy>
+<adj>V </adj>
+</row>
+<row num="9">
+<sta_id>44914</sta_id>
+<sta_nm>LA PANZA</sta_nm>
+<nfdr_dt>062115</nfdr_dt>
+<nfdr_tm>12</nfdr_tm>
+<nfdr_type>O</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>2</one_hr>
+<ten_hr>2</ten_hr>
+<hu_hr>4</hu_hr>
+<th_hr>8</th_hr>
+<xh_hr>6</xh_hr>
+<ic>82</ic>
+<kbdi>656</kbdi>
+<sc>20</sc>
+<ec>86</ec>
+<bi>94</bi>
+<sl>5 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>67</fl>
+<hrb>2</hrb>
+<wdy>60</wdy>
+<adj>E </adj>
+</row>
+<row num="10">
 <sta_id>44914</sta_id>
 <sta_nm>LA PANZA</sta_nm>
 <nfdr_dt>062115</nfdr_dt>
@@ -82,173 +278,5 @@
 <hrb>2</hrb>
 <wdy>60</wdy>
 <adj>V </adj>
-</row>
-<row num="4">
-<sta_id>44914</sta_id>
-<sta_nm>LA PANZA</sta_nm>
-<nfdr_dt>062015</nfdr_dt>
-<nfdr_tm>13</nfdr_tm>
-<nfdr_type>F</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>2</one_hr>
-<ten_hr>2</ten_hr>
-<hu_hr>5</hu_hr>
-<th_hr>8</th_hr>
-<xh_hr>6</xh_hr>
-<ic>67</ic>
-<kbdi>652</kbdi>
-<sc>14</sc>
-<ec>82</ec>
-<bi>76</bi>
-<sl>5 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>54</fl>
-<hrb>2</hrb>
-<wdy>61</wdy>
-<adj>E </adj>
-</row>
-<row num="5">
-<sta_id>44914</sta_id>
-<sta_nm>LA PANZA</sta_nm>
-<nfdr_dt>062015</nfdr_dt>
-<nfdr_tm>12</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>3</one_hr>
-<ten_hr>4</ten_hr>
-<hu_hr>4</hu_hr>
-<th_hr>8</th_hr>
-<xh_hr>6</xh_hr>
-<ic>41</ic>
-<kbdi>654</kbdi>
-<sc>17</sc>
-<ec>82</ec>
-<bi>83</bi>
-<sl>5 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>59</fl>
-<hrb>3</hrb>
-<wdy>60</wdy>
-<adj>V </adj>
-</row>
-<row num="6">
-<sta_id>44914</sta_id>
-<sta_nm>LA PANZA</sta_nm>
-<nfdr_dt>062015</nfdr_dt>
-<nfdr_tm>18</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>3</one_hr>
-<ten_hr>3</ten_hr>
-<hu_hr>4</hu_hr>
-<th_hr>8</th_hr>
-<xh_hr>6</xh_hr>
-<ic>41</ic>
-<kbdi>654</kbdi>
-<sc>15</sc>
-<ec>83</ec>
-<bi>81</bi>
-<sl>5 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>57</fl>
-<hrb>3</hrb>
-<wdy>60</wdy>
-<adj>V </adj>
-</row>
-<row num="7">
-<sta_id>44914</sta_id>
-<sta_nm>LA PANZA</sta_nm>
-<nfdr_dt>062015</nfdr_dt>
-<nfdr_tm>6</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>8</one_hr>
-<ten_hr>6</ten_hr>
-<hu_hr>5</hu_hr>
-<th_hr>8</th_hr>
-<xh_hr>6</xh_hr>
-<ic>10</ic>
-<kbdi>652</kbdi>
-<sc>7</sc>
-<ec>75</ec>
-<bi>54</bi>
-<sl>4 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>38</fl>
-<hrb>8</hrb>
-<wdy>61</wdy>
-<adj>M </adj>
-</row>
-<row num="8">
-<sta_id>44914</sta_id>
-<sta_nm>LA PANZA</sta_nm>
-<nfdr_dt>062015</nfdr_dt>
-<nfdr_tm>0</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>7</one_hr>
-<ten_hr>5</ten_hr>
-<hu_hr>5</hu_hr>
-<th_hr>8</th_hr>
-<xh_hr>6</xh_hr>
-<ic>13</ic>
-<kbdi>652</kbdi>
-<sc>7</sc>
-<ec>76</ec>
-<bi>54</bi>
-<sl>4 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>38</fl>
-<hrb>7</hrb>
-<wdy>61</wdy>
-<adj>M </adj>
-</row>
-<row num="9">
-<sta_id>44914</sta_id>
-<sta_nm>LA PANZA</sta_nm>
-<nfdr_dt>062015</nfdr_dt>
-<nfdr_tm>12</nfdr_tm>
-<nfdr_type>R</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>2</one_hr>
-<ten_hr>3</ten_hr>
-<hu_hr>4</hu_hr>
-<th_hr>8</th_hr>
-<xh_hr>6</xh_hr>
-<ic>75</ic>
-<kbdi>654</kbdi>
-<sc>18</sc>
-<ec>84</ec>
-<bi>88</bi>
-<sl>5 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>62</fl>
-<hrb>2</hrb>
-<wdy>60</wdy>
-<adj>E </adj>
 </row>
 </nfdrs>
