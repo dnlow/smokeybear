@@ -2,6 +2,342 @@
 <row num="1">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>13</nfdr_tm>
+<nfdr_type>F</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>4</one_hr>
+<ten_hr>5</ten_hr>
+<hu_hr>13</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>47</ic>
+<kbdi>658</kbdi>
+<sc>11</sc>
+<ec>54</ec>
+<bi>58</bi>
+<sl>4 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>41</fl>
+<hrb>4</hrb>
+<wdy>91</wdy>
+<adj>V </adj>
+</row>
+<row num="2">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>1</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>18</one_hr>
+<ten_hr>13</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>0</ic>
+<kbdi>658</kbdi>
+<sc>4</sc>
+<ec>39</ec>
+<bi>30</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>21</fl>
+<hrb>18</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="3">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>7</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>18</one_hr>
+<ten_hr>16</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>0</ic>
+<kbdi>658</kbdi>
+<sc>3</sc>
+<ec>37</ec>
+<bi>28</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>20</fl>
+<hrb>18</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="4">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>9</nfdr_tm>
+<nfdr_type>S</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>8</one_hr>
+<ten_hr>9</ten_hr>
+<hu_hr>14</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>14</ic>
+<kbdi>659</kbdi>
+<sc>6</sc>
+<ec>48</ec>
+<bi>40</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>28</fl>
+<hrb>8</hrb>
+<wdy>91</wdy>
+<adj>L </adj>
+</row>
+<row num="5">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>13</nfdr_tm>
+<nfdr_type>F</nfdr_type>
+<mp>2</mp>
+<msgc>7A3A2</msgc>
+<one_hr>4</one_hr>
+<ten_hr>5</ten_hr>
+<hu_hr>13</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>38</ic>
+<kbdi>658</kbdi>
+<sc>79</sc>
+<ec>3</ec>
+<bi>36</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>26</fl>
+<hrb>4</hrb>
+<wdy>91</wdy>
+<adj>L </adj>
+</row>
+<row num="6">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>7</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>2</mp>
+<msgc>7A3A2</msgc>
+<one_hr>18</one_hr>
+<ten_hr>16</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>0</ic>
+<kbdi>658</kbdi>
+<sc>0</sc>
+<ec>0</ec>
+<bi>0</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>0</fl>
+<hrb>18</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="7">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>1</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>2</mp>
+<msgc>7A3A2</msgc>
+<one_hr>18</one_hr>
+<ten_hr>13</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>0</ic>
+<kbdi>658</kbdi>
+<sc>0</sc>
+<ec>0</ec>
+<bi>0</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>0</fl>
+<hrb>18</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="8">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>9</nfdr_tm>
+<nfdr_type>S</nfdr_type>
+<mp>2</mp>
+<msgc>7A3A2</msgc>
+<one_hr>8</one_hr>
+<ten_hr>9</ten_hr>
+<hu_hr>14</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>10</ic>
+<kbdi>659</kbdi>
+<sc>29</sc>
+<ec>1</ec>
+<bi>16</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>11</fl>
+<hrb>8</hrb>
+<wdy>91</wdy>
+<adj>L </adj>
+</row>
+<row num="9">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>13</nfdr_tm>
+<nfdr_type>F</nfdr_type>
+<mp>3</mp>
+<msgc>7B3A2</msgc>
+<one_hr>4</one_hr>
+<ten_hr>5</ten_hr>
+<hu_hr>13</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>30</ic>
+<kbdi>658</kbdi>
+<sc>9</sc>
+<ec>41</ec>
+<bi>47</bi>
+<sl>4 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>33</fl>
+<hrb>4</hrb>
+<wdy>91</wdy>
+<adj>H </adj>
+</row>
+<row num="10">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>1</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>3</mp>
+<msgc>7B3A2</msgc>
+<one_hr>18</one_hr>
+<ten_hr>13</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>0</ic>
+<kbdi>658</kbdi>
+<sc>0</sc>
+<ec>0</ec>
+<bi>0</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>0</fl>
+<hrb>18</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="11">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>7</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>3</mp>
+<msgc>7B3A2</msgc>
+<one_hr>18</one_hr>
+<ten_hr>16</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>0</ic>
+<kbdi>658</kbdi>
+<sc>0</sc>
+<ec>0</ec>
+<bi>0</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>0</fl>
+<hrb>18</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="12">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100815</nfdr_dt>
+<nfdr_tm>9</nfdr_tm>
+<nfdr_type>S</nfdr_type>
+<mp>3</mp>
+<msgc>7B3A2</msgc>
+<one_hr>8</one_hr>
+<ten_hr>9</ten_hr>
+<hu_hr>14</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>9</ic>
+<kbdi>659</kbdi>
+<sc>5</sc>
+<ec>19</ec>
+<bi>24</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>17</fl>
+<hrb>8</hrb>
+<wdy>91</wdy>
+<adj>L </adj>
+</row>
+<row num="13">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>F</nfdr_type>
@@ -27,35 +363,7 @@
 <wdy>91</wdy>
 <adj>H </adj>
 </row>
-<row num="2">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100715</nfdr_dt>
-<nfdr_tm>7</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>24</one_hr>
-<ten_hr>18</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>0</ic>
-<kbdi>657</kbdi>
-<sc>2</sc>
-<ec>33</ec>
-<bi>18</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>13</fl>
-<hrb>24</hrb>
-<wdy>91</wdy>
-<adj>L </adj>
-</row>
-<row num="3">
+<row num="14">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
@@ -83,7 +391,119 @@
 <wdy>91</wdy>
 <adj>L </adj>
 </row>
-<row num="4">
+<row num="15">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100715</nfdr_dt>
+<nfdr_tm>7</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>24</one_hr>
+<ten_hr>18</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>0</ic>
+<kbdi>657</kbdi>
+<sc>2</sc>
+<ec>33</ec>
+<bi>18</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>13</fl>
+<hrb>24</hrb>
+<wdy>91</wdy>
+<adj>L </adj>
+</row>
+<row num="16">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100715</nfdr_dt>
+<nfdr_tm>19</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>10</one_hr>
+<ten_hr>10</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>5</ic>
+<kbdi>658</kbdi>
+<sc>5</sc>
+<ec>45</ec>
+<bi>38</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>27</fl>
+<hrb>10</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="17">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100715</nfdr_dt>
+<nfdr_tm>13</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>9</one_hr>
+<ten_hr>13</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>8</ic>
+<kbdi>658</kbdi>
+<sc>7</sc>
+<ec>45</ec>
+<bi>42</bi>
+<sl>4 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>30</fl>
+<hrb>9</hrb>
+<wdy>92</wdy>
+<adj>M </adj>
+</row>
+<row num="18">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100715</nfdr_dt>
+<nfdr_tm>13</nfdr_tm>
+<nfdr_type>O</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>4</one_hr>
+<ten_hr>6</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>39</ic>
+<kbdi>658</kbdi>
+<sc>9</sc>
+<ec>51</ec>
+<bi>50</bi>
+<sl>4 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>35</fl>
+<hrb>4</hrb>
+<wdy>92</wdy>
+<adj>H </adj>
+</row>
+<row num="19">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
@@ -111,7 +531,7 @@
 <wdy>92</wdy>
 <adj>L </adj>
 </row>
-<row num="5">
+<row num="20">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
@@ -139,35 +559,63 @@
 <wdy>91</wdy>
 <adj>L </adj>
 </row>
-<row num="6">
+<row num="21">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
-<nfdr_tm>1</nfdr_tm>
+<nfdr_tm>19</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>2</mp>
 <msgc>7A3A2</msgc>
-<one_hr>19</one_hr>
-<ten_hr>14</ten_hr>
+<one_hr>10</one_hr>
+<ten_hr>10</ten_hr>
 <hu_hr>15</hu_hr>
 <th_hr>12</th_hr>
 <xh_hr>6</xh_hr>
-<ic>0</ic>
-<kbdi>657</kbdi>
-<sc>0</sc>
-<ec>0</ec>
-<bi>0</bi>
+<ic>4</ic>
+<kbdi>658</kbdi>
+<sc>26</sc>
+<ec>1</ec>
+<bi>13</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>0</fl>
-<hrb>19</hrb>
-<wdy>91</wdy>
+<fl>9</fl>
+<hrb>10</hrb>
+<wdy>92</wdy>
 <adj>L </adj>
 </row>
-<row num="7">
+<row num="22">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100715</nfdr_dt>
+<nfdr_tm>13</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>2</mp>
+<msgc>7A3A2</msgc>
+<one_hr>9</one_hr>
+<ten_hr>13</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>6</ic>
+<kbdi>658</kbdi>
+<sc>40</sc>
+<ec>1</ec>
+<bi>18</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>13</fl>
+<hrb>9</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="23">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
@@ -195,7 +643,63 @@
 <wdy>91</wdy>
 <adj>L </adj>
 </row>
-<row num="8">
+<row num="24">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100715</nfdr_dt>
+<nfdr_tm>1</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>2</mp>
+<msgc>7A3A2</msgc>
+<one_hr>19</one_hr>
+<ten_hr>14</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>0</ic>
+<kbdi>657</kbdi>
+<sc>0</sc>
+<ec>0</ec>
+<bi>0</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>0</fl>
+<hrb>19</hrb>
+<wdy>91</wdy>
+<adj>L </adj>
+</row>
+<row num="25">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100715</nfdr_dt>
+<nfdr_tm>13</nfdr_tm>
+<nfdr_type>O</nfdr_type>
+<mp>2</mp>
+<msgc>7A3A2</msgc>
+<one_hr>4</one_hr>
+<ten_hr>6</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>30</ic>
+<kbdi>658</kbdi>
+<sc>53</sc>
+<ec>3</ec>
+<bi>30</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>21</fl>
+<hrb>4</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="26">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
@@ -223,7 +727,7 @@
 <wdy>92</wdy>
 <adj>L </adj>
 </row>
-<row num="9">
+<row num="27">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
@@ -251,35 +755,63 @@
 <wdy>91</wdy>
 <adj>L </adj>
 </row>
-<row num="10">
+<row num="28">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
-<nfdr_tm>1</nfdr_tm>
+<nfdr_tm>13</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>3</mp>
 <msgc>7B3A2</msgc>
-<one_hr>19</one_hr>
-<ten_hr>14</ten_hr>
+<one_hr>9</one_hr>
+<ten_hr>13</ten_hr>
 <hu_hr>15</hu_hr>
 <th_hr>12</th_hr>
 <xh_hr>6</xh_hr>
-<ic>0</ic>
-<kbdi>657</kbdi>
-<sc>0</sc>
-<ec>0</ec>
-<bi>0</bi>
+<ic>6</ic>
+<kbdi>658</kbdi>
+<sc>6</sc>
+<ec>12</ec>
+<bi>22</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>0</fl>
-<hrb>19</hrb>
-<wdy>91</wdy>
+<fl>16</fl>
+<hrb>9</hrb>
+<wdy>92</wdy>
 <adj>L </adj>
 </row>
-<row num="11">
+<row num="29">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100715</nfdr_dt>
+<nfdr_tm>19</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>3</mp>
+<msgc>7B3A2</msgc>
+<one_hr>10</one_hr>
+<ten_hr>10</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>3</ic>
+<kbdi>658</kbdi>
+<sc>4</sc>
+<ec>15</ec>
+<bi>21</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>15</fl>
+<hrb>10</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="30">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
@@ -307,7 +839,63 @@
 <wdy>91</wdy>
 <adj>L </adj>
 </row>
-<row num="12">
+<row num="31">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100715</nfdr_dt>
+<nfdr_tm>1</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>3</mp>
+<msgc>7B3A2</msgc>
+<one_hr>19</one_hr>
+<ten_hr>14</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>0</ic>
+<kbdi>657</kbdi>
+<sc>0</sc>
+<ec>0</ec>
+<bi>0</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>0</fl>
+<hrb>19</hrb>
+<wdy>91</wdy>
+<adj>L </adj>
+</row>
+<row num="32">
+<sta_id>44904</sta_id>
+<sta_nm>LAS TABLAS</sta_nm>
+<nfdr_dt>100715</nfdr_dt>
+<nfdr_tm>13</nfdr_tm>
+<nfdr_type>O</nfdr_type>
+<mp>3</mp>
+<msgc>7B3A2</msgc>
+<one_hr>4</one_hr>
+<ten_hr>6</ten_hr>
+<hu_hr>15</hu_hr>
+<th_hr>12</th_hr>
+<xh_hr>6</xh_hr>
+<ic>25</ic>
+<kbdi>658</kbdi>
+<sc>7</sc>
+<ec>36</ec>
+<bi>38</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>27</fl>
+<hrb>4</hrb>
+<wdy>92</wdy>
+<adj>L </adj>
+</row>
+<row num="33">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <nfdr_dt>100715</nfdr_dt>
@@ -333,510 +921,6 @@
 <fl>17</fl>
 <hrb>8</hrb>
 <wdy>92</wdy>
-<adj>L </adj>
-</row>
-<row num="13">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>1</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>20</one_hr>
-<ten_hr>15</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>0</ic>
-<kbdi>656</kbdi>
-<sc>3</sc>
-<ec>37</ec>
-<bi>25</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>18</fl>
-<hrb>20</hrb>
-<wdy>89</wdy>
-<adj>L </adj>
-</row>
-<row num="14">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>19</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>13</one_hr>
-<ten_hr>11</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>2</ic>
-<kbdi>657</kbdi>
-<sc>4</sc>
-<ec>43</ec>
-<bi>33</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>23</fl>
-<hrb>13</hrb>
-<wdy>91</wdy>
-<adj>L </adj>
-</row>
-<row num="15">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>13</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>9</one_hr>
-<ten_hr>13</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>8</ic>
-<kbdi>657</kbdi>
-<sc>7</sc>
-<ec>44</ec>
-<bi>43</bi>
-<sl>4 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>30</fl>
-<hrb>9</hrb>
-<wdy>91</wdy>
-<adj>M </adj>
-</row>
-<row num="16">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>7</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>23</one_hr>
-<ten_hr>19</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>0</ic>
-<kbdi>656</kbdi>
-<sc>2</sc>
-<ec>34</ec>
-<bi>19</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>13</fl>
-<hrb>23</hrb>
-<wdy>89</wdy>
-<adj>L </adj>
-</row>
-<row num="17">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>13</nfdr_tm>
-<nfdr_type>O</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>5</one_hr>
-<ten_hr>7</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>33</ic>
-<kbdi>657</kbdi>
-<sc>9</sc>
-<ec>50</ec>
-<bi>51</bi>
-<sl>4 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>36</fl>
-<hrb>5</hrb>
-<wdy>91</wdy>
-<adj>H </adj>
-</row>
-<row num="18">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>8</nfdr_tm>
-<nfdr_type>S</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>10</one_hr>
-<ten_hr>11</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>10</ic>
-<kbdi>657</kbdi>
-<sc>6</sc>
-<ec>44</ec>
-<bi>39</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>28</fl>
-<hrb>10</hrb>
-<wdy>91</wdy>
-<adj>L </adj>
-</row>
-<row num="19">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>19</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>2</mp>
-<msgc>7A3A2</msgc>
-<one_hr>13</one_hr>
-<ten_hr>11</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>1</ic>
-<kbdi>657</kbdi>
-<sc>13</sc>
-<ec>0</ec>
-<bi>6</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>4</fl>
-<hrb>13</hrb>
-<wdy>91</wdy>
-<adj>L </adj>
-</row>
-<row num="20">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>13</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>2</mp>
-<msgc>7A3A2</msgc>
-<one_hr>9</one_hr>
-<ten_hr>13</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>6</ic>
-<kbdi>657</kbdi>
-<sc>46</sc>
-<ec>1</ec>
-<bi>18</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>13</fl>
-<hrb>9</hrb>
-<wdy>91</wdy>
-<adj>L </adj>
-</row>
-<row num="21">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>7</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>2</mp>
-<msgc>7A3A2</msgc>
-<one_hr>23</one_hr>
-<ten_hr>19</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>0</ic>
-<kbdi>656</kbdi>
-<sc>0</sc>
-<ec>0</ec>
-<bi>0</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>0</fl>
-<hrb>23</hrb>
-<wdy>89</wdy>
-<adj>L </adj>
-</row>
-<row num="22">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>1</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>2</mp>
-<msgc>7A3A2</msgc>
-<one_hr>20</one_hr>
-<ten_hr>15</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>0</ic>
-<kbdi>656</kbdi>
-<sc>0</sc>
-<ec>0</ec>
-<bi>0</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>0</fl>
-<hrb>20</hrb>
-<wdy>89</wdy>
-<adj>L </adj>
-</row>
-<row num="23">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>13</nfdr_tm>
-<nfdr_type>O</nfdr_type>
-<mp>2</mp>
-<msgc>7A3A2</msgc>
-<one_hr>5</one_hr>
-<ten_hr>7</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>26</ic>
-<kbdi>657</kbdi>
-<sc>58</sc>
-<ec>2</ec>
-<bi>29</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>21</fl>
-<hrb>5</hrb>
-<wdy>91</wdy>
-<adj>L </adj>
-</row>
-<row num="24">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>8</nfdr_tm>
-<nfdr_type>S</nfdr_type>
-<mp>2</mp>
-<msgc>7A3A2</msgc>
-<one_hr>10</one_hr>
-<ten_hr>11</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>7</ic>
-<kbdi>657</kbdi>
-<sc>30</sc>
-<ec>1</ec>
-<bi>14</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>10</fl>
-<hrb>10</hrb>
-<wdy>91</wdy>
-<adj>L </adj>
-</row>
-<row num="25">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>13</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>3</mp>
-<msgc>7B3A2</msgc>
-<one_hr>9</one_hr>
-<ten_hr>13</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>5</ic>
-<kbdi>657</kbdi>
-<sc>7</sc>
-<ec>11</ec>
-<bi>22</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>16</fl>
-<hrb>9</hrb>
-<wdy>91</wdy>
-<adj>L </adj>
-</row>
-<row num="26">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>7</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>3</mp>
-<msgc>7B3A2</msgc>
-<one_hr>23</one_hr>
-<ten_hr>19</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>0</ic>
-<kbdi>656</kbdi>
-<sc>0</sc>
-<ec>0</ec>
-<bi>0</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>0</fl>
-<hrb>23</hrb>
-<wdy>89</wdy>
-<adj>L </adj>
-</row>
-<row num="27">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>1</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>3</mp>
-<msgc>7B3A2</msgc>
-<one_hr>20</one_hr>
-<ten_hr>15</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>0</ic>
-<kbdi>656</kbdi>
-<sc>0</sc>
-<ec>0</ec>
-<bi>0</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>0</fl>
-<hrb>20</hrb>
-<wdy>89</wdy>
-<adj>L </adj>
-</row>
-<row num="28">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>19</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>3</mp>
-<msgc>7B3A2</msgc>
-<one_hr>13</one_hr>
-<ten_hr>11</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>1</ic>
-<kbdi>657</kbdi>
-<sc>2</sc>
-<ec>9</ec>
-<bi>11</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>8</fl>
-<hrb>13</hrb>
-<wdy>91</wdy>
-<adj>L </adj>
-</row>
-<row num="29">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>13</nfdr_tm>
-<nfdr_type>O</nfdr_type>
-<mp>3</mp>
-<msgc>7B3A2</msgc>
-<one_hr>5</one_hr>
-<ten_hr>7</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>22</ic>
-<kbdi>657</kbdi>
-<sc>8</sc>
-<ec>31</ec>
-<bi>37</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>26</fl>
-<hrb>5</hrb>
-<wdy>91</wdy>
-<adj>L </adj>
-</row>
-<row num="30">
-<sta_id>44904</sta_id>
-<sta_nm>LAS TABLAS</sta_nm>
-<nfdr_dt>100615</nfdr_dt>
-<nfdr_tm>8</nfdr_tm>
-<nfdr_type>S</nfdr_type>
-<mp>3</mp>
-<msgc>7B3A2</msgc>
-<one_hr>10</one_hr>
-<ten_hr>11</ten_hr>
-<hu_hr>15</hu_hr>
-<th_hr>12</th_hr>
-<xh_hr>6</xh_hr>
-<ic>6</ic>
-<kbdi>657</kbdi>
-<sc>5</sc>
-<ec>13</ec>
-<bi>20</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>14</fl>
-<hrb>10</hrb>
-<wdy>91</wdy>
 <adj>L </adj>
 </row>
 </nfdrs>
