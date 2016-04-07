@@ -4,32 +4,62 @@
 <sta_nm>ARROYO GRANDE</sta_nm>
 <latitude>  35.1791</latitude>
 <longitude>-120.3918</longitude>
-<nfdr_dt>04/06/2016</nfdr_dt>
+<nfdr_dt>04/07/2016</nfdr_dt>
 <nfdr_tm>6</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
-<one_hr>11</one_hr>
-<ten_hr>10</ten_hr>
-<hu_hr>13</hu_hr>
-<th_hr>18</th_hr>
+<one_hr>21</one_hr>
+<ten_hr>17</ten_hr>
+<hu_hr>11</hu_hr>
+<th_hr>17</th_hr>
 <xh_hr>17</xh_hr>
-<ic>2</ic>
-<kbdi>89</kbdi>
-<sc>2</sc>
-<ec>30</ec>
-<bi>22</bi>
+<ic>0</ic>
+<kbdi>100</kbdi>
+<sc>1</sc>
+<ec>26</ec>
+<bi>15</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>16</fl>
-<hrb>143</hrb>
-<wdy>138</wdy>
+<fl>11</fl>
+<hrb>136</hrb>
+<wdy>134</wdy>
 <adj>L </adj>
 </row>
 <row num="2">
+<sta_id>44915</sta_id>
+<sta_nm>ARROYO GRANDE</sta_nm>
+<latitude>  35.1791</latitude>
+<longitude>-120.3918</longitude>
+<nfdr_dt>04/07/2016</nfdr_dt>
+<nfdr_tm>0</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G2A2</msgc>
+<one_hr>18</one_hr>
+<ten_hr>13</ten_hr>
+<hu_hr>11</hu_hr>
+<th_hr>17</th_hr>
+<xh_hr>17</xh_hr>
+<ic>0</ic>
+<kbdi>100</kbdi>
+<sc>2</sc>
+<ec>29</ec>
+<bi>17</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>12</fl>
+<hrb>136</hrb>
+<wdy>134</wdy>
+<adj>L </adj>
+</row>
+<row num="3">
 <sta_id>44915</sta_id>
 <sta_nm>ARROYO GRANDE</sta_nm>
 <latitude>  35.1791</latitude>
@@ -59,64 +89,34 @@
 <wdy>138</wdy>
 <adj>L </adj>
 </row>
-<row num="3">
-<sta_id>44915</sta_id>
-<sta_nm>ARROYO GRANDE</sta_nm>
-<latitude>  35.1791</latitude>
-<longitude>-120.3918</longitude>
-<nfdr_dt>04/05/2016</nfdr_dt>
-<nfdr_tm>0</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G2A2</msgc>
-<one_hr>13</one_hr>
-<ten_hr>11</ten_hr>
-<hu_hr>16</hu_hr>
-<th_hr>18</th_hr>
-<xh_hr>18</xh_hr>
-<ic>1</ic>
-<kbdi>82</kbdi>
-<sc>2</sc>
-<ec>26</ec>
-<bi>20</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>14</fl>
-<hrb>149</hrb>
-<wdy>142</wdy>
-<adj>L </adj>
-</row>
 <row num="4">
 <sta_id>44915</sta_id>
 <sta_nm>ARROYO GRANDE</sta_nm>
 <latitude>  35.1791</latitude>
 <longitude>-120.3918</longitude>
-<nfdr_dt>04/05/2016</nfdr_dt>
+<nfdr_dt>04/06/2016</nfdr_dt>
 <nfdr_tm>6</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
-<one_hr>13</one_hr>
-<ten_hr>13</ten_hr>
-<hu_hr>16</hu_hr>
+<one_hr>11</one_hr>
+<ten_hr>10</ten_hr>
+<hu_hr>13</hu_hr>
 <th_hr>18</th_hr>
-<xh_hr>18</xh_hr>
-<ic>1</ic>
-<kbdi>82</kbdi>
+<xh_hr>17</xh_hr>
+<ic>2</ic>
+<kbdi>89</kbdi>
 <sc>2</sc>
-<ec>26</ec>
-<bi>18</bi>
+<ec>30</ec>
+<bi>22</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>13</fl>
-<hrb>149</hrb>
-<wdy>142</wdy>
+<fl>16</fl>
+<hrb>143</hrb>
+<wdy>138</wdy>
 <adj>L </adj>
 </row>
 <row num="5">
@@ -124,29 +124,29 @@
 <sta_nm>ARROYO GRANDE</sta_nm>
 <latitude>  35.1791</latitude>
 <longitude>-120.3918</longitude>
-<nfdr_dt>04/05/2016</nfdr_dt>
+<nfdr_dt>04/06/2016</nfdr_dt>
 <nfdr_tm>12</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
-<one_hr>6</one_hr>
-<ten_hr>9</ten_hr>
-<hu_hr>13</hu_hr>
-<th_hr>18</th_hr>
+<one_hr>5</one_hr>
+<ten_hr>8</ten_hr>
+<hu_hr>11</hu_hr>
+<th_hr>17</th_hr>
 <xh_hr>17</xh_hr>
-<ic>12</ic>
-<kbdi>89</kbdi>
+<ic>14</ic>
+<kbdi>100</kbdi>
 <sc>4</sc>
-<ec>33</ec>
-<bi>30</bi>
+<ec>37</ec>
+<bi>31</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>21</fl>
-<hrb>143</hrb>
-<wdy>138</wdy>
+<fl>22</fl>
+<hrb>136</hrb>
+<wdy>134</wdy>
 <adj>L </adj>
 </row>
 <row num="6">
@@ -154,29 +154,29 @@
 <sta_nm>ARROYO GRANDE</sta_nm>
 <latitude>  35.1791</latitude>
 <longitude>-120.3918</longitude>
-<nfdr_dt>04/05/2016</nfdr_dt>
+<nfdr_dt>04/06/2016</nfdr_dt>
 <nfdr_tm>18</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
-<one_hr>7</one_hr>
-<ten_hr>7</ten_hr>
-<hu_hr>13</hu_hr>
-<th_hr>18</th_hr>
+<one_hr>14</one_hr>
+<ten_hr>8</ten_hr>
+<hu_hr>11</hu_hr>
+<th_hr>17</th_hr>
 <xh_hr>17</xh_hr>
-<ic>7</ic>
-<kbdi>89</kbdi>
+<ic>1</ic>
+<kbdi>100</kbdi>
 <sc>2</sc>
-<ec>34</ec>
-<bi>21</bi>
+<ec>33</ec>
+<bi>19</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>15</fl>
-<hrb>143</hrb>
-<wdy>138</wdy>
+<fl>13</fl>
+<hrb>136</hrb>
+<wdy>134</wdy>
 <adj>L </adj>
 </row>
 <row num="7">
@@ -184,20 +184,20 @@
 <sta_nm>ARROYO GRANDE</sta_nm>
 <latitude>  35.1791</latitude>
 <longitude>-120.3918</longitude>
-<nfdr_dt>04/05/2016</nfdr_dt>
+<nfdr_dt>04/06/2016</nfdr_dt>
 <nfdr_tm>12</nfdr_tm>
 <nfdr_type>O</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
 <one_hr>3</one_hr>
-<ten_hr>5</ten_hr>
-<hu_hr>13</hu_hr>
-<th_hr>18</th_hr>
+<ten_hr>4</ten_hr>
+<hu_hr>11</hu_hr>
+<th_hr>17</th_hr>
 <xh_hr>17</xh_hr>
-<ic>36</ic>
-<kbdi>89</kbdi>
+<ic>34</ic>
+<kbdi>100</kbdi>
 <sc>5</sc>
-<ec>36</ec>
+<ec>40</ec>
 <bi>34</bi>
 <sl>1 </sl>
 <lr>0</lr>
@@ -205,8 +205,8 @@
 <hr/>0
       <ho>0</ho>
 <fl>24</fl>
-<hrb>143</hrb>
-<wdy>138</wdy>
+<hrb>136</hrb>
+<wdy>134</wdy>
 <adj>L </adj>
 </row>
 </nfdrs>
