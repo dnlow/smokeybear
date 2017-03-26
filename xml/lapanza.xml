@@ -4,20 +4,20 @@
 <sta_nm>LA PANZA</sta_nm>
 <latitude>  35.3807</latitude>
 <longitude>-120.1881</longitude>
-<nfdr_dt>03/25/2017</nfdr_dt>
+<nfdr_dt>03/26/2017</nfdr_dt>
 <nfdr_tm>6</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
-<one_hr>35</one_hr>
-<ten_hr>42</ten_hr>
-<hu_hr>18</hu_hr>
-<th_hr>22</th_hr>
-<xh_hr>22</xh_hr>
+<one_hr>31</one_hr>
+<ten_hr>27</ten_hr>
+<hu_hr>21</hu_hr>
+<th_hr>23</th_hr>
+<xh_hr>23</xh_hr>
 <ic>0</ic>
-<kbdi>50</kbdi>
+<kbdi>40</kbdi>
 <sc>0</sc>
-<ec>1</ec>
+<ec>3</ec>
 <bi>0</bi>
 <sl>1 </sl>
 <lr>0</lr>
@@ -25,11 +25,41 @@
 <hr/>0
       <ho>0</ho>
 <fl>0</fl>
-<hrb>35</hrb>
+<hrb>31</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
 <row num="2">
+<sta_id>44914</sta_id>
+<sta_nm>LA PANZA</sta_nm>
+<latitude>  35.3807</latitude>
+<longitude>-120.1881</longitude>
+<nfdr_dt>03/26/2017</nfdr_dt>
+<nfdr_tm>0</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G3A2</msgc>
+<one_hr>29</one_hr>
+<ten_hr>26</ten_hr>
+<hu_hr>21</hu_hr>
+<th_hr>23</th_hr>
+<xh_hr>23</xh_hr>
+<ic>0</ic>
+<kbdi>40</kbdi>
+<sc>0</sc>
+<ec>4</ec>
+<bi>0</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>0</fl>
+<hrb>29</hrb>
+<wdy>60</wdy>
+<adj>L </adj>
+</row>
+<row num="3">
 <sta_id>44914</sta_id>
 <sta_nm>LA PANZA</sta_nm>
 <latitude>  35.3807</latitude>
@@ -59,55 +89,25 @@
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
-<row num="3">
-<sta_id>44914</sta_id>
-<sta_nm>LA PANZA</sta_nm>
-<latitude>  35.3807</latitude>
-<longitude>-120.1881</longitude>
-<nfdr_dt>03/24/2017</nfdr_dt>
-<nfdr_tm>0</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G3A2</msgc>
-<one_hr>28</one_hr>
-<ten_hr>17</ten_hr>
-<hu_hr>20</hu_hr>
-<th_hr>23</th_hr>
-<xh_hr>23</xh_hr>
-<ic>0</ic>
-<kbdi>48</kbdi>
-<sc>0</sc>
-<ec>8</ec>
-<bi>0</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>0</fl>
-<hrb>28</hrb>
-<wdy>60</wdy>
-<adj>L </adj>
-</row>
 <row num="4">
 <sta_id>44914</sta_id>
 <sta_nm>LA PANZA</sta_nm>
 <latitude>  35.3807</latitude>
 <longitude>-120.1881</longitude>
-<nfdr_dt>03/24/2017</nfdr_dt>
+<nfdr_dt>03/25/2017</nfdr_dt>
 <nfdr_tm>6</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
-<one_hr>27</one_hr>
-<ten_hr>19</ten_hr>
-<hu_hr>20</hu_hr>
-<th_hr>23</th_hr>
-<xh_hr>23</xh_hr>
+<one_hr>35</one_hr>
+<ten_hr>42</ten_hr>
+<hu_hr>18</hu_hr>
+<th_hr>22</th_hr>
+<xh_hr>22</xh_hr>
 <ic>0</ic>
-<kbdi>48</kbdi>
+<kbdi>50</kbdi>
 <sc>0</sc>
-<ec>8</ec>
+<ec>1</ec>
 <bi>0</bi>
 <sl>1 </sl>
 <lr>0</lr>
@@ -115,7 +115,7 @@
 <hr/>0
       <ho>0</ho>
 <fl>0</fl>
-<hrb>27</hrb>
+<hrb>35</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -124,28 +124,28 @@
 <sta_nm>LA PANZA</sta_nm>
 <latitude>  35.3807</latitude>
 <longitude>-120.1881</longitude>
-<nfdr_dt>03/24/2017</nfdr_dt>
+<nfdr_dt>03/25/2017</nfdr_dt>
 <nfdr_tm>12</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
-<one_hr>9</one_hr>
-<ten_hr>12</ten_hr>
-<hu_hr>18</hu_hr>
-<th_hr>22</th_hr>
-<xh_hr>22</xh_hr>
-<ic>9</ic>
-<kbdi>50</kbdi>
-<sc>9</sc>
-<ec>19</ec>
-<bi>32</bi>
+<one_hr>25</one_hr>
+<ten_hr>37</ten_hr>
+<hu_hr>21</hu_hr>
+<th_hr>23</th_hr>
+<xh_hr>23</xh_hr>
+<ic>0</ic>
+<kbdi>40</kbdi>
+<sc>0</sc>
+<ec>3</ec>
+<bi>1</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>23</fl>
-<hrb>9</hrb>
+<fl>1</fl>
+<hrb>25</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -154,28 +154,28 @@
 <sta_nm>LA PANZA</sta_nm>
 <latitude>  35.3807</latitude>
 <longitude>-120.1881</longitude>
-<nfdr_dt>03/24/2017</nfdr_dt>
+<nfdr_dt>03/25/2017</nfdr_dt>
 <nfdr_tm>18</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
-<one_hr>14</one_hr>
-<ten_hr>11</ten_hr>
-<hu_hr>18</hu_hr>
-<th_hr>22</th_hr>
-<xh_hr>22</xh_hr>
-<ic>1</ic>
-<kbdi>50</kbdi>
-<sc>5</sc>
-<ec>17</ec>
-<bi>23</bi>
+<one_hr>19</one_hr>
+<ten_hr>24</ten_hr>
+<hu_hr>21</hu_hr>
+<th_hr>23</th_hr>
+<xh_hr>23</xh_hr>
+<ic>0</ic>
+<kbdi>40</kbdi>
+<sc>4</sc>
+<ec>8</ec>
+<bi>15</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>16</fl>
-<hrb>14</hrb>
+<fl>11</fl>
+<hrb>19</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -184,28 +184,28 @@
 <sta_nm>LA PANZA</sta_nm>
 <latitude>  35.3807</latitude>
 <longitude>-120.1881</longitude>
-<nfdr_dt>03/24/2017</nfdr_dt>
+<nfdr_dt>03/25/2017</nfdr_dt>
 <nfdr_tm>12</nfdr_tm>
 <nfdr_type>O</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
-<one_hr>6</one_hr>
-<ten_hr>8</ten_hr>
-<hu_hr>18</hu_hr>
-<th_hr>22</th_hr>
-<xh_hr>22</xh_hr>
-<ic>29</ic>
-<kbdi>50</kbdi>
-<sc>11</sc>
-<ec>22</ec>
-<bi>37</bi>
+<one_hr>16</one_hr>
+<ten_hr>17</ten_hr>
+<hu_hr>21</hu_hr>
+<th_hr>23</th_hr>
+<xh_hr>23</xh_hr>
+<ic>2</ic>
+<kbdi>40</kbdi>
+<sc>6</sc>
+<ec>11</ec>
+<bi>21</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>26</fl>
-<hrb>6</hrb>
+<fl>15</fl>
+<hrb>16</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
