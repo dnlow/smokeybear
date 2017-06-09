@@ -2,6 +2,7 @@ function init() {
 	getstatus_lapanza();
 	getstatus_lastablas();
 	getstatus_arroyogrande();
+	getstatus_sansimeon();
 	getTimestamps();
 }
 
@@ -67,10 +68,11 @@ function xmlToJson(xml) {
 function getTimestamps() {
 	$.get('xml/timestamps', function(data) {
 		var stamps = data.split('\n');
-		var stations = ['#lpstatus', '#ltstatus', '#agstatus'];
+		var stations = ['#lpstatus', '#ltstatus', '#agstatus', 'slcstatus'];
 		// stamps[0]: La Panza
 		// stamps[1]: Las Tablas
 		// stamps[2]: Arroyo Grande
+		// stamps[3]: San Simeon
 
 		/* Current time, in seconds */
 		var now = Math.floor((new Date).getTime()/1000);
@@ -172,6 +174,32 @@ function getstatus_arroyogrande() { //44915
     	else {
     		console.log("The Adjective Fire Danger Rating for Arroyo Grande has not yet been updated today.");
     		$('#agstatus').html("*This station's rating is not up to date");
+    	}
+	});	
+}
+
+function getstatus_sansimeon() { //44917
+	jQuery.get('./xml/sansimeon.xml', function(data) {
+    	var jsonified = xmlToJson(data);
+    	console.log("GOT JSON! FOR San Simeon");
+    	if (jsonified.hasOwnProperty('nfdrs') && jsonified.nfdrs.hasOwnProperty('row')) {
+    		console.log("row exists");
+    		for (var i=0; i<jsonified.nfdrs.row.length; i++) {
+	    		var curEntry = jsonified.nfdrs.row[i];
+	    		if (curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G2A2") {
+	    			calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], 'SLC');
+	    			console.log("Smokey's Adjective Fire Danger Rating for San Simeon is up to date.");
+	    			break;
+	    		}
+	    	}
+	    	if (i == jsonified.nfdrs.row.length) {
+    			console.log("The Adjective Fire Danger Rating for San Simeon has not yet been updated today.");
+    			$('#slcstatus').html("*This station's rating is not up to date");
+    		}
+    	}
+    	else {
+    		console.log("The Adjective Fire Danger Rating for San Simeon has not yet been updated today.");
+    		$('#slcstatus').html("*This station's rating is not up to date");
     	}
 	});	
 }

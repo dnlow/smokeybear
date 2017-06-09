@@ -11,6 +11,7 @@ echo logging timestamps...
 git log -1 --format=%ct -- xml/lapanza.xml > xml/timestamps
 git log -1 --format=%ct -- xml/lastablas.xml >> xml/timestamps
 git log -1 --format=%ct -- xml/arroyogrande.xml >> xml/timestamps
+git log -1 --format=%ct -- xml/sansimeon.xml >> xml/timestamps
 
 # Commit any changes that occurred
 echo committing...

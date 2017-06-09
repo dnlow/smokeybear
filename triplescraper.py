@@ -20,6 +20,7 @@ yesterdaysdate = yesterday.strftime('%d') + yesterday.strftime('%b').upper() + y
 #lapanza = "44904"
 #lastablas = "44914"
 #arroyogrande = "44915"
+#sansimeon = "44917"
 
 url_lt = "https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44904&start=" + yesterdaysdate + "&end=" + todaysdate + "&user=4e1"
 print "Getting Las Tablas data from %s" %url_lt 
@@ -33,6 +34,10 @@ url_ag = "https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44915&start=" + yesterda
 print "Getting Arroyo Grande data from %s" %url_ag 
 soup_ag = BeautifulSoup(urlopen(url_ag)) 
 
+url_slc = "https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44917&start=" + yesterdaysdate + "&end=" + todaysdate + "&user=4e1"
+print "Getting San Simeon data from %s" %url_slc 
+soup_slc = BeautifulSoup(urlopen(url_slc))
+
 # Remove unnecessary html tags to get clean xml
 invalid_tags = ['html', 'body']
 
@@ -42,6 +47,8 @@ for tag in invalid_tags:
 	for match in soup_lp.findAll(tag):
 		match.replaceWithChildren()
 	for match in soup_ag.findAll(tag):
+		match.replaceWithChildren()
+	for match in soup_slc.findAll(tag):
 		match.replaceWithChildren()
 
 # Write to file
@@ -53,3 +60,6 @@ with open("lapanza.xml", "wb") as file:
 
 with open("arroyogrande.xml", "wb") as file:
 	file.write(bytes(soup_ag))
+
+with open("sansimeon.xml", "wb") as file:
+	file.write(bytes(soup_slc))
