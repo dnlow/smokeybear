@@ -68,7 +68,7 @@ function xmlToJson(xml) {
 function getTimestamps() {
 	$.get('xml/timestamps', function(data) {
 		var stamps = data.split('\n');
-		var stations = ['#lpstatus', '#ltstatus', '#agstatus', 'slcstatus'];
+		var stations = ['#lpstatus', '#ltstatus', '#agstatus', '#slcstatus'];
 		// stamps[0]: La Panza
 		// stamps[1]: Las Tablas
 		// stamps[2]: Arroyo Grande
