@@ -1,29 +1,30 @@
 function init() {
-	getstatus_lapanza();
-	getstatus_lastablas();
-	getstatus_arroyogrande();
-	getstatus_sansimeon();
-	getTimestamps();
+	document.getElementById("zone_selection").onchange = updateSmokey();
+	//getstatus_lapanza();
+	//getstatus_lastablas();
+	//getstatus_arroyogrande();
+	//getstatus_sansimeon();
+	//getTimestamps();
 }
 
-function low(stationId) {
-	$('#smokey' + stationId).attr('src', './img/low.png');
+function low() {
+	$('#smokey').attr('src', './img/low.png');
 }
 
-function moderate(stationId) {
-	$('#smokey' + stationId).attr('src', './img/moderate.png');
+function moderate() {
+	$('#smokey').attr('src', './img/moderate.png');
 }
 
-function high(stationId) {
-	$('#smokey' + stationId).attr('src', './img/high.png');
+function high() {
+	$('#smokey').attr('src', './img/high.png');
 }
 
-function veryhigh(stationId) {
-	$('#smokey' + stationId).attr('src', './img/veryhigh.png');
+function veryhigh() {
+	$('#smokey').attr('src', './img/veryhigh.png');
 }
 
-function extreme(stationId) {
-	$('#smokey' + stationId).attr('src', './img/extreme.png');
+function extreme() {
+	$('#smokey').attr('src', './img/extreme.png');
 }
 
 // Changes XML to JSON
@@ -116,12 +117,12 @@ function getstatus_lapanza() { //44905
 	    	}
 	    	if (i == jsonified.nfdrs.row.length) {
     			console.log("The Adjective Fire Danger Rating for La Panza has not yet been updated today.");
-    			$('#lpstatus').html("*This station's rating is not up to date");
+    			$('#status').html("*This station's rating is not up to date");
     		}
     	}    	
     	else {
     		console.log("The Adjective Fire Danger Rating for La Panza has not yet been updated today.");
-    		$('#lpstatus').html("*This station's rating is not up to date");
+    		$('#status').html("*This station's rating is not up to date");
     	}
 	});
 }
@@ -142,12 +143,12 @@ function getstatus_lastablas() { //44904
 	    	}
 	    	if (i == jsonified.nfdrs.row.length) {
     			console.log("The Adjective Fire Danger Rating for Las Tablas has not yet been updated today.");
-    			$('#ltstatus').html("*This station's rating is not up to date");
+    			$('#status').html("*This station's rating is not up to date");
     		}
     	}
     	else {
     		console.log("The Adjective Fire Danger Rating for Las Tablas has not yet been updated today.");
-    		$('#ltstatus').html("*This station's rating is not up to date");
+    		$('#status').html("*This station's rating is not up to date");
     	}
 	});
 }
@@ -168,12 +169,12 @@ function getstatus_arroyogrande() { //44915
 	    	}
 	    	if (i == jsonified.nfdrs.row.length) {
     			console.log("The Adjective Fire Danger Rating for Arroyo Grande has not yet been updated today.");
-    			$('#agstatus').html("*This station's rating is not up to date");
+    			$('#status').html("*This station's rating is not up to date");
     		}
     	}
     	else {
     		console.log("The Adjective Fire Danger Rating for Arroyo Grande has not yet been updated today.");
-    		$('#agstatus').html("*This station's rating is not up to date");
+    		$('#status').html("*This station's rating is not up to date");
     	}
 	});	
 }
@@ -194,12 +195,12 @@ function getstatus_sansimeon() { //44917
 	    	}
 	    	if (i == jsonified.nfdrs.row.length) {
     			console.log("The Adjective Fire Danger Rating for San Simeon has not yet been updated today.");
-    			$('#slcstatus').html("*This station's rating is not up to date");
+    			$('#status').html("*This station's rating is not up to date");
     		}
     	}
     	else {
     		console.log("The Adjective Fire Danger Rating for San Simeon has not yet been updated today.");
-    		$('#slcstatus').html("*This station's rating is not up to date");
+    		$('#status').html("*This station's rating is not up to date");
     	}
 	});	
 }
@@ -238,22 +239,51 @@ function calc_rating(sl, ic, id) {
 
 	switch(rating_result) {
 		case 'L':
-			low(id);
+			low();
 			break;
 		case 'M':
-			moderate(id);
+			moderate();
 			break;
 		case 'H':
-			high(id);
+			high();
 			break;
 		case 'V':
-			veryhigh(id);
+			veryhigh();
 			break;
 		case 'E':
-			extreme(id);
+			extreme();
 			break;
 		default:
 			console.log("Something went wrong\n");
 			break;
+	}
+}
+
+function updateSmokey()
+{
+		switch(this.value)
+	{
+		case "CV":
+			getstatus_arroyogrande();
+			$("selected_area").html.attr("text", "Coastal Valley")
+			$("selected_city").html.attr("text", "Arroyo Grande")
+			break;
+		case "IV":
+			getstatus_lapanza();
+			$("selected_area").html.attr("text", "Inland Valley")
+			$("selected_city").html.attr("text", "La Panza")
+			break;
+		case "CR":
+			getstatus_lastablas();
+			$("selected_area").html.attr("text", "Coast Range")
+			$("selected_city").html.attr("text", "Las Tablas")
+			break;
+		case "SLC":
+			getstatus_sansimeon();
+			$("selected_area").html.attr("text", "San Luis Coast")
+			$("selected_city").html.attr("text", "San Simeon")
+			break;
+		default:
+			console.log("Something went wrong updating smokey.\n");
 	}
 }
