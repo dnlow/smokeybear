@@ -1,42 +1,37 @@
 function init() {
-	document.getElementById("zone_selection").onchange = updateSmokey();
-	//getstatus_lapanza();
-	//getstatus_lastablas();
-	//getstatus_arroyogrande();
-	//getstatus_sansimeon();
-	//getTimestamps();
+	updateSmokey();
 }
 
 function low() {
-	$('#smokey').attr('src', './img/low.png');
+	document.getElementById("smokey").setAttribute('src', './img/low.png');
 }
 
 function moderate() {
-	$('#smokey').attr('src', './img/moderate.png');
+	document.getElementById("smokey").setAttribute('src', './img/moderate.png');
 }
 
 function high() {
-	$('#smokey').attr('src', './img/high.png');
+	document.getElementById("smokey").setAttribute('src', './img/high.png');
 }
 
 function veryhigh() {
-	$('#smokey').attr('src', './img/veryhigh.png');
+	document.getElementById("smokey").setAttribute('src', './img/veryhigh.png');
 }
 
 function extreme() {
-	$('#smokey').attr('src', './img/extreme.png');
+	document.getElementById("smokey").setAttribute('src', './img/extreme.png');
 }
 
 // Changes XML to JSON
 function xmlToJson(xml) {
-	
+
 	// Create the return object
 	var obj = {};
 
 	if (xml.nodeType == 1) { // element
 		// do attributes
 		if (xml.attributes.length > 0) {
-		obj["@attributes"] = {};
+			obj["@attributes"] = {};
 			for (var j = 0; j < xml.attributes.length; j++) {
 				var attribute = xml.attributes.item(j);
 				obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
@@ -47,14 +42,18 @@ function xmlToJson(xml) {
 	}
 
 	// do children
-	if (xml.hasChildNodes()) {
-		for(var i = 0; i < xml.childNodes.length; i++) {
+	// If just one text node inside
+	if (xml.hasChildNodes() && xml.childNodes.length === 1 && xml.childNodes[0].nodeType === 3) {
+		obj = xml.childNodes[0].nodeValue;
+	}
+	else if (xml.hasChildNodes()) {
+		for (var i = 0; i < xml.childNodes.length; i++) {
 			var item = xml.childNodes.item(i);
 			var nodeName = item.nodeName;
-			if (typeof(obj[nodeName]) == "undefined") {
+			if (typeof (obj[nodeName]) == "undefined") {
 				obj[nodeName] = xmlToJson(item);
 			} else {
-				if (typeof(obj[nodeName].push) == "undefined") {
+				if (typeof (obj[nodeName].push) == "undefined") {
 					var old = obj[nodeName];
 					obj[nodeName] = [];
 					obj[nodeName].push(old);
@@ -64,152 +63,42 @@ function xmlToJson(xml) {
 		}
 	}
 	return obj;
-};
+}
 
 function getTimestamps() {
-	$.get('xml/timestamps', function(data) {
+	$.get('xml/timestamps', function (data) {
 		var stamps = data.split('\n');
-		var stations = ['#lpstatus', '#ltstatus', '#agstatus', '#slcstatus'];
-		// stamps[0]: La Panza
-		// stamps[1]: Las Tablas
-		// stamps[2]: Arroyo Grande
-		// stamps[3]: San Simeon
 
 		/* Current time, in seconds */
-		var now = Math.floor((new Date).getTime()/1000);
+		var now = Math.floor((new Date).getTime() / 1000);
 		console.log(now);
 
-		for(var i=0; i<stations.length; i++) {
-			/* Timestamps are in seconds, so get time in hours */
-			var units = "";
-			var hours = ((now - stamps[i])/3600);
+		/* Timestamps are in seconds, so get time in hours */
+		var units = "";
+		var hours = ((now - stamps[i]) / 3600);
 
-			console.log(hours);
-			if (hours < 1) {
-				hours *= 60;
-				units = " minute";
-			}
-			else {
-				units = " hour";
-			}
-			hours = Math.floor(hours);
-			if (hours > 1) { //plurality
-				units += "s";
-			}
-			
-			$(stations[i]).html("Last updated " + hours + units + " ago");
+		console.log(hours);
+		if (hours < 1) {
+			hours *= 60;
+			units = " minute";
 		}
+		else {
+			units = " hour";
+		}
+		hours = Math.floor(hours);
+		if (hours > 1) { //plurality
+			units += "s";
+		}
+
+		document.getElementById("status").innerHtml = "Last updated " + hours + units + " ago";
 	});
-}
-
-function getstatus_lapanza() { //44905
-	jQuery.get('./xml/lapanza.xml', function(data) {
-    	var jsonified = xmlToJson(data);
-    	console.log("GOT JSON! FOR LA PANZA");
-    	if (jsonified.hasOwnProperty('nfdrs') && jsonified.nfdrs.hasOwnProperty('row')) {
-    		for (var i=0; i<jsonified.nfdrs.row.length; i++) {
-	    		var curEntry = jsonified.nfdrs.row[i];
-	    		if (curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G3A2") {
-	    			calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], 'LP');
-	    			console.log("Smokey's Adjective Fire Danger Rating for La Panza is up to date.");
-	    			break;
-	    		}
-	    	}
-	    	if (i == jsonified.nfdrs.row.length) {
-    			console.log("The Adjective Fire Danger Rating for La Panza has not yet been updated today.");
-    			$('#status').html("*This station's rating is not up to date");
-    		}
-    	}    	
-    	else {
-    		console.log("The Adjective Fire Danger Rating for La Panza has not yet been updated today.");
-    		$('#status').html("*This station's rating is not up to date");
-    	}
-	});
-}
-
-function getstatus_lastablas() { //44904
-	jQuery.get('./xml/lastablas.xml', function(data) {
-    	var jsonified = xmlToJson(data);
-    	console.log("GOT JSON! FOR LAS TABLAS");
-    	if (jsonified.hasOwnProperty('nfdrs') && jsonified.nfdrs.hasOwnProperty('row')) {
-    		console.log("row exists");
-    		for (var i=0; i<jsonified.nfdrs.row.length; i++) {
-	    		var curEntry = jsonified.nfdrs.row[i];
-	    		if (curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G3A2") {
-	    			calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], 'LT');
-	    			console.log("Smokey's Adjective Fire Danger Rating for Las Tablas is up to date.");
-	    			break;
-	    		}
-	    	}
-	    	if (i == jsonified.nfdrs.row.length) {
-    			console.log("The Adjective Fire Danger Rating for Las Tablas has not yet been updated today.");
-    			$('#status').html("*This station's rating is not up to date");
-    		}
-    	}
-    	else {
-    		console.log("The Adjective Fire Danger Rating for Las Tablas has not yet been updated today.");
-    		$('#status').html("*This station's rating is not up to date");
-    	}
-	});
-}
-
-function getstatus_arroyogrande() { //44915
-	jQuery.get('./xml/arroyogrande.xml', function(data) {
-    	var jsonified = xmlToJson(data);
-    	console.log("GOT JSON! FOR ARROYO GRANDE");
-    	if (jsonified.hasOwnProperty('nfdrs') && jsonified.nfdrs.hasOwnProperty('row')) {
-    		console.log("row exists");
-    		for (var i=0; i<jsonified.nfdrs.row.length; i++) {
-	    		var curEntry = jsonified.nfdrs.row[i];
-	    		if (curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G2A2") {
-	    			calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], 'AG');
-	    			console.log("Smokey's Adjective Fire Danger Rating for Arroyo Grande is up to date.");
-	    			break;
-	    		}
-	    	}
-	    	if (i == jsonified.nfdrs.row.length) {
-    			console.log("The Adjective Fire Danger Rating for Arroyo Grande has not yet been updated today.");
-    			$('#status').html("*This station's rating is not up to date");
-    		}
-    	}
-    	else {
-    		console.log("The Adjective Fire Danger Rating for Arroyo Grande has not yet been updated today.");
-    		$('#status').html("*This station's rating is not up to date");
-    	}
-	});	
-}
-
-function getstatus_sansimeon() { //44917
-	jQuery.get('./xml/sansimeon.xml', function(data) {
-    	var jsonified = xmlToJson(data);
-    	console.log("GOT JSON! FOR San Simeon");
-    	if (jsonified.hasOwnProperty('nfdrs') && jsonified.nfdrs.hasOwnProperty('row')) {
-    		console.log("row exists");
-    		for (var i=0; i<jsonified.nfdrs.row.length; i++) {
-	    		var curEntry = jsonified.nfdrs.row[i];
-	    		if (curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G2A2") {
-	    			calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], 'SLC');
-	    			console.log("Smokey's Adjective Fire Danger Rating for San Simeon is up to date.");
-	    			break;
-	    		}
-	    	}
-	    	if (i == jsonified.nfdrs.row.length) {
-    			console.log("The Adjective Fire Danger Rating for San Simeon has not yet been updated today.");
-    			$('#status').html("*This station's rating is not up to date");
-    		}
-    	}
-    	else {
-    		console.log("The Adjective Fire Danger Rating for San Simeon has not yet been updated today.");
-    		$('#status').html("*This station's rating is not up to date");
-    	}
-	});	
 }
 
 function getICIndex(ic) {
 	if (ic >= 0 && ic <= 20) {
 		return 0;
 	}
-	else if (ic >= 21 && ic <=45) {
+	else if (ic >= 21 && ic <= 45) {
 		return 1;
 	}
 	else if (ic >= 46 && ic <= 65) {
@@ -230,14 +119,14 @@ function calc_rating(sl, ic, id) {
 		['M', 'M', 'H', 'H', 'V'],
 		['M', 'H', 'V', 'V', 'E'],
 		['H', 'V', 'V', 'E', 'E']];
-	
+
 	var ic_result = getICIndex(ic);
-	var rating_result = rating_matrix[sl-1][ic_result];
+	var rating_result = rating_matrix[sl - 1][ic_result];
 
 	console.log("RATING BELOW for " + id + " based on sl=" + sl + " and ic=" + ic + ": ");
 	console.log(rating_result);
 
-	switch(rating_result) {
+	switch (rating_result) {
 		case 'L':
 			low();
 			break;
@@ -257,33 +146,72 @@ function calc_rating(sl, ic, id) {
 			console.log("Something went wrong\n");
 			break;
 	}
+	console.log("Finished calcing rating.\n");
 }
 
-function updateSmokey()
-{
-		switch(this.value)
-	{
-		case "CV":
-			getstatus_arroyogrande();
-			$("selected_area").html.attr("text", "Coastal Valley")
-			$("selected_city").html.attr("text", "Arroyo Grande")
+function updateSmokey() {
+	var selection = document.getElementById("zone_selection");
+	var selected_area = document.getElementById("selected_area");
+	var selected_city = document.getElementById("selected_city");
+	var value = selection.options[selection.selectedIndex].value;
+	var data = '/xml/arroyogrande.xml';
+
+	switch (value) {
+		case "AG":
+			data = '/xml/arroyogrande.xml';
+			selected_area.innerHTML = 'Coastal Valley';
+			selected_city.innerHTML = 'Arroyo Grande';
 			break;
-		case "IV":
-			getstatus_lapanza();
-			$("selected_area").html.attr("text", "Inland Valley")
-			$("selected_city").html.attr("text", "La Panza")
+		case "LP":
+			data = '/xml/lapanza.xml';
+			selected_area.innerHTML = 'Inland Valley';
+			selected_city.innerHTML = 'La Panza';
 			break;
-		case "CR":
-			getstatus_lastablas();
-			$("selected_area").html.attr("text", "Coast Range")
-			$("selected_city").html.attr("text", "Las Tablas")
+		case "LT":
+			data = '/xml/lastablas.xml';
+			selected_area.innerHTML = 'Coast Range';
+			selected_city.innerHTML = 'Las Tablas';
 			break;
 		case "SLC":
-			getstatus_sansimeon();
-			$("selected_area").html.attr("text", "San Luis Coast")
-			$("selected_city").html.attr("text", "San Simeon")
+			data = '/xml/sansimeon.xml';
+			selected_area.innerHTML = 'San Luis Coast';
+			selected_city.innerHTML = 'San Simeon';
 			break;
 		default:
 			console.log("Something went wrong updating smokey.\n");
 	}
+	getStatus(data, value, selected_city.innerHTML);
+	getTimestamps();
+}
+
+function getStatus(data, station, city) {
+	var serializer = new XMLSerializer();
+	var serializedXML = serializer.serializeToString(data);
+	var xml = new DOMParser().parseFromString(serializedXML, 'text/xml');
+	var jsonified = xmlToJson(xml);
+
+	console.log("GOT JSON! FOR " + city);
+	console.log(data);
+	console.log(jsonified);
+	console.log(jsonified.hasOwnProperty("nfdrs"));
+	if (jsonified.hasOwnProperty("nfdrs") && jsonified.nfdrs.hasOwnProperty("row")) {
+		console.log("row exists");
+		for (var i = 0; i < jsonified.nfdrs.row.length; i++) {
+			var curEntry = jsonified.nfdrs.row[i];
+			if (curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G2A2") {
+				calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], station);
+				console.log("Smokey's Adjective Fire Danger Rating for " + city + " is up to date.");
+				break;
+			}
+		}
+		if (i == jsonified.nfdrs.row.length) {
+			console.log("The Adjective Fire Danger Rating for " + city + " has not yet been updated today.");
+			document.getElementById("status").innerHtml = "*This station's rating is not up to date";
+		}
+	}
+	else {
+		console.log("The Adjective Fire Danger Rating for " + city + " has not yet been updated today.");
+		document.getElementById("status").innerHtml = "*This station's rating is not up to date";
+	}
+	console.log("Got " + city + " Fire Rating");
 }
