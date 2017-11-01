@@ -10,10 +10,11 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/index.css">
 
-    <script src="jquery-3.2.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="xml2json.js"></script>
     <script src="index.js"></script>
   </head>
-  
+
   <body onload="init()">
       <h1>Adjective Fire Danger</h1>
       <div id="navigation" style="clear:both; width:100%;">
@@ -29,7 +30,7 @@
       <div id="div_selection_box">
         <select id="zone_selection" onchange="updateSmokey();">
           <option value="AG" selected="selected">Coastal Valley</option>
-          <option value="LP">Inland Valley</option>
+          <option value="LP" >Inland Valley</option>
           <option value="LT">Coastal Range</option>
           <option value="SLC">San Luis Coast</option>
         </select>
@@ -40,7 +41,7 @@
             <h2 id="selected_area">Coastal Valley</h2>
             <img id="smokey" class="smokey" src="./img/low.png" />
             <h3 id="selected_city">Arroyo Grande</h3>
-            <p id="status" class="specialnotes"></p>
+            <p id="update_status" class="specialnotes"></p>
           </div>
       </div>
 

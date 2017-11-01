@@ -9,7 +9,8 @@
             "type": "chrome",
             "request": "launch",
             "sourceMaps": false,
-            "file": "${workspaceRoot}/index.html"
+            "url": "http://191ryq:8000/index.html",
+            "webRoot": "http://191ryq:8000/"
         }
     ]
 }

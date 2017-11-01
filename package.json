@@ -1,17 +1,11 @@
 {
   "requires": true,
   "lockfileVersion": 1,
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "sax": {
-      "integrity": "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==",
-      "resolved": "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz",
-      "version": "1.2.4"
-    },
-    "xml2js": "^0.4.19",
-    "xmlbuilder": {
-      "integrity": "sha1-UZy0ymhtAFqEINNJbz8MruzKWA8=",
-      "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-9.0.4.tgz",
-      "version": "9.0.4"
-    }
+    "local-web-server": "^2.2.4",
+    "send": "^0.16.1"
   }
 }

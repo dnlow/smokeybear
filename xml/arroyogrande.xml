@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <nfdrs>
 <row num="1">
 <sta_id>44915</sta_id>
@@ -323,7 +324,7 @@
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
-      <ho>0</ho>
+<ho>0</ho>
 <fl>16</fl>
 <hrb>20</hrb>
 <wdy>72</wdy>

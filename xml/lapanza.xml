@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <nfdrs>
 <row num="1">
 <sta_id>44914</sta_id>
@@ -6,9 +7,9 @@
 <longitude>-120.1881</longitude>
 <nfdr_dt>10/31/2017</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
-<nfdr_type>F</nfdr_type>
+<nfdr_type>O</nfdr_type>
 <mp>1</mp>
-<msgc>7G3A2</msgc>
+<msgc>7G2A2</msgc>
 <one_hr>9</one_hr>
 <ten_hr>10</ten_hr>
 <hu_hr>13</hu_hr>
