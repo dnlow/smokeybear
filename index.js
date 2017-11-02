@@ -29,34 +29,46 @@ function extreme()
     document.getElementById("smokey").setAttribute('src', './img/extreme.png');
 }
 
-function getTimestamps() 
+function getTimestamps(station) 
 {
-    $.get('xml/timestamps', function(data) {
+    params = [ {name: "station", value: station}];
+    jQuery.get('./xml/timestamps', function(data, params) {
         var stamps = data.split('\n');
+        var times = ['', '', '', ''];
+		// stamps[0]/times[0]: La Panza
+		// stamps[1]/times[0]: Las Tablas
+		// stamps[2]/times[0]: Arroyo Grande
+		// stamps[3]/times[0]: San Simeon
 
-        /* Current time, in seconds */
-        var now = Math.floor((new Date).getTime() / 1000);
-        console.log(now);
+		/* Current time, in seconds */
+		var now = Math.floor((new Date).getTime()/1000);
+		//console.log(now);
 
-        /* Timestamps are in seconds, so get time in hours */
-        var units = "";
-        var hours = ((now - stamps[0]) / 3600);
+		for(var i=0; i<times.length; i++) {
+			/* Timestamps are in seconds, so get time in hours */
+			var units = "";
+			var hours = ((now - stamps[i])/3600);
 
-        console.log(hours);
-        if (hours < 1) {
-            hours *= 60;
-            units = " minute";
+			//console.log(hours);
+			if (hours < 1) {
+				hours *= 60;
+				units = " minute";
+			}
+			else {
+				units = " hour";
+			}
+			hours = Math.floor(hours);
+			if (hours > 1) { //plurality
+				units += "s";
+			}
+			
+			times[i] = hours + units;
         }
-        else {
-            units = " hour";
-        }
-        hours = Math.floor(hours);
-        if (hours > 1) { //plurality
-            units += "s";
-        }
 
-        var status = document.getElementById("update_status");
-        status.innerHtml = "Last updated " + hours + units + " ago";
+        if (station == "LP") document.getElementById("update_status").innerHTML = "Last updated " + times[0] + " ago";
+        if (station == "LT") document.getElementById("update_status").innerHTML = "Last updated " + times[1] + " ago";
+        if (station == "AG") document.getElementById("update_status").innerHTML = "Last updated " + times[2] + " ago";
+        if (station == "SLC") document.getElementById("update_status").innerHTML = "Last updated " + times[3] + " ago";   
     });
 }
 
@@ -148,9 +160,8 @@ function updateSmokey()
         default:
             console.log("Something went wrong updating smokey.\n");
 	}
-
+    getTimestamps(value);
     readJSON(data, value, selected_city.innerHTML);
-    getTimestamps();
 }
 
 function readJSON(xml, station, city) 
@@ -169,7 +180,14 @@ function readJSON(xml, station, city)
             console.log("row exists");
             for (var i = 0; i < json.nfdrs.row.length; i++) {
                 var curEntry = json.nfdrs.row[i];
-                if (curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G3A2") {
+                if ((station == "LT" || station == "LP") && curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G3A2") 
+                {
+                    calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], station);
+                    console.log("Smokey's Adjective Fire Danger Rating for " + city + " is up to date.");
+                    break;
+                }
+                if ((station == "SLC" || station == "AG") && curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G2A2")
+                {
                     calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], station);
                     console.log("Smokey's Adjective Fire Danger Rating for " + city + " is up to date.");
                     break;
