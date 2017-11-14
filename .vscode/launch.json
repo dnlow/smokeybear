@@ -9,8 +9,8 @@
             "type": "chrome",
             "request": "launch",
             "sourceMaps": false,
-            "url": "http://191ryq:8000/index.html",
-            "webRoot": "http://191ryq:8000/"
+            "url": "http://192.168.1.134:8081/index.html",
+            "webRoot": "http://192.168.1.134:8081/"
         }
     ]
 }
